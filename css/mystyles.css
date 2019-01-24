@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  padding: 0 1.2rem;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.video-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  height: 100px;
+  line-height: 100px;
+}
+
+.logo {
+  text-align: center; 
+  font-size: 2rem;
+}
+
+nav {
+  display: none;
+  float: right;
+}
+
+ul.nav li {
+  display: inline;
+  margin-right: 2rem;
+}
+
+ul.nav a {
+  color: #333;
+  text-decoration: none;
+}
+
+.learning,
+.testimonials,
+.sign-up,
+.video-sets {
+  padding-top: 3rem;
+}
+
+.title {
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.video-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.box {
+  height: 150px;
+  line-height: 150px;
+  margin: 1%;
+  width: 48%;
+  text-align: center;
+  border: 1px solid #000;
+  color: #000;
+}
+
+.video-btn {
+  width: 3rem;
+}
+
+/* .box1 {
+  background-color: #e84393;
+}
+
+.box2 {
+  background-color: #fdcb6e;
+}
+
+.box3 {
+  background-color: #fdcb6e;
+}
+
+.box4 {
+  background-color: #e17055;
+} */
+
+.testimonials p {
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.bride-profile {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.bride-img {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.responsive-video {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.responsive-video iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width:100%;
+  position:  absolute;
+}
+
+.topics {
+  font-size: 1.5rem;
+  margin: 1.5rem 0;
+  padding: 0 1.2rem;
+}
+
+.topics li {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  list-style-type: none;
+}
+
+li.check-mark {
+  background: url('../img/check-mark.svg') no-repeat;
+  background-size: 2.5rem;
+  padding-left: 4rem;
+}
+
+.text {
+  text-align: center;
+}
+form {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+input {
+  height: 70px;
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+input[type=submit] {
+  background-color: #000;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  padding: 3rem 0;
+  color: #fff;
+  background-color: #000;
+}
+
+.sign-up {
+  text-align: center;
+}
+
+.sign-up h2 {
+  margin: 1rem 0;
+}
+
+.top-text {
+  text-transform: uppercase;
+}
+
+.bx-wrapper {
+  box-shadow: none;
+}
